@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CAMPX__Status__c</fullName>
     <deprecated>false</deprecated>
-    <description>The statuses of an event should reflect its lifecycle from initial planning to post-event activities</description>
+    <description
+  >The statuses of an event should reflect its lifecycle from initial planning to post-event activities</description>
     <externalId>false</externalId>
     <label>Status</label>
     <required>false</required>
@@ -15,7 +16,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Planning</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Planning</label>
             </value>
             <value>
